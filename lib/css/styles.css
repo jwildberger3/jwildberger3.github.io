@@ -31,6 +31,7 @@
   grid-column-end: 6;
   grid-row-start: 7;
   grid-row-end: 9;
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 .stock-grid {
@@ -45,7 +46,7 @@
   display: flex;
   justify-content: space-between;
   padding: 20px;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: #2196F3;
   visibility: hidden;
 }
 
@@ -53,6 +54,17 @@
   text-align: left;
   font-size: 20px;
   padding: 3px 10px;
+}
+
+/*.stock-button {
+  visibility: hidden;
+}*/
+
+.portfolio {
+  text-align: center;
+  font-size: 30px;
+  padding: 0px 0px;
+  margin-top: 10px;
 }
 
 .grid-container {

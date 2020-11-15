@@ -3,56 +3,110 @@
 
 <head>
   <title>Create a Custom Stock Portfolio</title>
-	<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
-	<meta content="utf-8" http-equiv="encoding">
+  <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+  <meta content="utf-8" http-equiv="encoding">
   <link rel="stylesheet" href="./lib/css/styles.css">
+  <style>
+    .table {
+      display: table;
+      /* Allow the centering to work */
+      margin: 0 auto;
+    }
+
+    ul#horizontal-list {
+      min-width: 696px;
+      list-style: none;
+      padding-top: -2px;
+    }
+
+    ul#horizontal-list li {
+      display: inline;
+    }
+
+    ul#horizontal-listTitle {
+      min-width: 696px;
+      list-style: none;
+      padding-top: 10px;
+    }
+
+    ul#horizontal-listTitle li {
+      display: inline-block;
+      width: 150px;
+    }
+  </style>
 </head>
 
 <body>
 
-<div class="grid-container">
-  <div class="header">Create a Custom Stock Portfolio</div>
-  <div class="stock-menu">
-    <label for="myForm">Select a Stock</label>
-    <form class="form-attribute" id="myForm">
+  <div class="grid-container">
+    <div class="header">Create a Custom Stock Portfolio</div>
+    <div class="stock-menu">
+      <label for="myForm">Select a Stock</label>
+      <form class="form-attribute" id="myForm">
         <select id="selectStock">
           <option></option>
         </select>
-    </form>
-    <div class="stock-attribute" id="symbol">Symbol: </div>
-    <div class="stock-attribute" id="previousClose">Previous Close: </div>
-    <div class="stock-attribute" id="beta">Beta: </div>
-    <div class="stock-attribute" id="environmentScore">Environmental Score: </div>
-    <div class="stock-attribute" id="governanceScore">Governance Score: </div>
-    <div class="stock-attribute" id="socialScore">Social Score: </div>
-    <div class="stock-attribute" id="yield">Yield: </div>
-    <div class="stock-attribute" id="ytdReturn">YTD Return: </div>
-    <div class="slide-container">
-    	Percentage of Portfolio
-		<input type="range" min="1" max="100" value="50" class="slider" id="sliderRange">
-		<span id="rangeValue"></span>
-	</div>
-    <button type="button" id="AddToPortfolioButton">Add to Portfolio</button>
-  </div>
-  <div class="radarchart">Radar Chart</div>  
-  <div class="indexes">Similar Indexes</div>
-  <main class="stock-container">
-    <div class="stock-grid">
-      <div id="stock0" class="stock"></div>
-      <div id="stock1" class="stock"></div>
-      <div id="stock2" class="stock"></div>
-      <div id="stock3" class="stock"></div>
-      <div id="stock4" class="stock"></div>
+      </form>
+      <div class="stock-attribute" id="symbol">Symbol: </div>
+      <div class="stock-attribute" id="previousClose">Previous Close: </div>
+      <div class="stock-attribute" id="beta">Beta: </div>
+      <div class="stock-attribute" id="environmentScore">Environment Score: </div>
+      <div class="stock-attribute" id="governanceScore">Governance Score: </div>
+      <div class="stock-attribute" id="socialScore">Social Score: </div>
+      <div class="stock-attribute" id="yield">Yield: </div>
+      <div class="stock-attribute" id="ytdReturn">YTD Return: </div>
+      <div class="slide-container">
+        Portfolio Allocation
+        <input type="range" min="1" max="100" value="50" class="slider" id="sliderRange">
+        <span id="rangeValue"></span>
+      </div>
+      <button type="button" id="AddToPortfolioButton">Add to Portfolio</button>
+      <div class="important-factors">Important Factors
+        <select id="selectFactors"></select>
+      </div>
     </div>
+    <div class="radarchart"></div>
+    <div class="indexes">Similar Indexes
+      <form class="form-attribute" id="myForm">
+        <select id="selectIndex">
+          <option></option>
+        </select>
+      </form>
+      <div class="stock-attribute" id="symbolIndex">Symbol: </div>
+      <div class="stock-attribute" id="previousCloseIndex">Previous Close: </div>
+      <div class="stock-attribute" id="betaIndex">Beta: </div>
+      <div class="stock-attribute" id="environmentScoreIndex">Environment Score: </div>
+      <div class="stock-attribute" id="governanceScoreIndex">Governance Score: </div>
+      <div class="stock-attribute" id="socialScoreIndex">Social Score: </div>
+      <div class="stock-attribute" id="yieldIndex">Yield: </div>
+      <div class="stock-attribute" id="ytdReturnIndex">YTD Return: </div>
+    </div>
+    <main class="stock-container">
+      <div class="portfolio" id="portfolio">Portfolio</div>
+      <div class="stock-grid">
+        <div id="stock0" class="stock"><button type="button" id="button0">Remove</button></div>
+        <div id="stock1" class="stock"></div>
+        <div id="stock2" class="stock"></div>
+        <div id="stock3" class="stock"></div>
+        <div id="stock4" class="stock"></div>
+      </div>
+    </main class="stock-container">
   </div>
-</div>
+  </div>
 
-<script src="./lib/js/jquery-3.5.1.min.js"></script>
-<script src="./lib/data/stocks_simple.js"></script>
-<script src="./lib/js/api.js"></script>
-<script src="./lib/js/algorithm.js"></script>
-<script src="./lib/js/main.js"></script>
-
-
+  <script src="./lib/js/main.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300" rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+  <script type="text/javascript" src="lib/d3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
+  <script src="./lib/js/jquery-3.5.1.min.js"></script>
+  <script src="./lib/data/StocksSimple.js"></script>
+  <script src="./lib/data/IndexSimple.js"></script>
+  <script src="./lib/js/api.js"></script>
+  <script src="./lib/js/algorithm.js"></script>
+  <script src="./lib/js/main.js"></script>
+  <script src="./lib/js/radar.js"></script>
+  <script src="./lib/js/addToRadar.js"></script>
 </body>
+
 </html>
