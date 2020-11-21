@@ -45,7 +45,9 @@
       <datalist class="form-attribute" id="selectStock">
         <option></option>
       </datalist>
+      <div></div>
       <input type="text" list="selectStock" id="stockInput" placeholder="Search for a stock ticker"/>
+      <div class="logo-attribute" id="logoUrl"></div>
       <div class="stock-attribute" id="symbol">Symbol: </div>
       <div class="stock-attribute" id="previousClose">Previous Close: </div>
       <div class="stock-attribute" id="beta">Beta: </div>
@@ -61,7 +63,15 @@
       </div>
       <button type="button" id="AddToPortfolioButton">Add to Portfolio</button>
     </div>
-    <div class="radarchart"></div>
+    <div class="radarchart">
+      <div class="toggle">
+        <button class="toggleButton" type="button" id="b1" value="Beta" style="color:blue">Beta On</button>
+        <button class="toggleButton" type="button" id="b2" value="Yield" style="color:blue">Yield On</button>
+        <button class="toggleButton" type="button" id="b3" value="Social" style="color:blue">Social On</button>
+        <button class="toggleButton" type="button" id="b4" value="Governance" style="color:blue">Governance On</button>
+        <button class="toggleButton" type="button" id="b5" value="Environment" style="color:blue">Environment On</button>
+      </div>
+    </div>
     <div class="indexes">Similar Indexes
       <form class="form-attribute" id="myForm">
         <select id="selectIndex">
@@ -80,7 +90,7 @@
     <main class="stock-container">
       <div class="portfolio" id="portfolio">Portfolio</div>
       <div class="stock-grid">
-        <div id="stock0" class="stock"><button type="button" id="button0">Remove</button></div>
+        <div id="stock0" class="stock"></div>
         <div id="stock1" class="stock"></div>
         <div id="stock2" class="stock"></div>
         <div id="stock3" class="stock"></div>
@@ -94,7 +104,6 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300" rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
   <script src="./lib/js/jquery-3.5.1.min.js"></script>
-  <script src="./lib/data/IndexSimple.js"></script>
   <script src="./lib/js/api.js"></script>
   <script src="./lib/js/algorithm.js"></script>
   <script src="./lib/js/radar.js"></script>

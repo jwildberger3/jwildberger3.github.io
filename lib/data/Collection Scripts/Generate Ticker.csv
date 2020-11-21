@@ -1,0 +1,241 @@
+Ticker,Component Name,Ticker,Percentage
+ABEQ,Berkshire Hathaway Inc Class B,BRK.B,7.66%
+ABEQ,Agnico Eagle Mines Ltd,AEM.TO,4.56%
+ABEQ,DuPont de Nemours Inc,DD,4.53%
+ABEQ,Barrick Gold Corp,ABX.TO,3.92%
+ABEQ,Loews Corp,L,3.82%
+ABEQ,Enbridge Inc,ENB.TO,3.59%
+ABEQ,Corteva Inc,CTVA,3.26%
+ABEQ,Pfizer Inc,PFE,3.21%
+ABEQ,Ingredion Inc,INGR,3.05%
+ABEQ,Cerner Corp,CERN,3.03%
+AFLG,Apple Inc,AAPL,8.10%
+AFLG,Microsoft Corp,MSFT,4.28%
+AFLG,Amazon.com Inc,AMZN,3.23%
+AFLG,Walmart Inc,WMT,1.51%
+AFLG,Facebook Inc A,FB,1.38%
+AFLG,Alphabet Inc A,GOOGL,1.25%
+AFLG,NVIDIA Corp,NVDA,1.21%
+AFLG,The Home Depot Inc,HD,1.17%
+AFLG,Bristol-Myers Squibb Company,BMY,1.11%
+AFLG,Johnson & Johnson,JNJ,1.05%
+ARKK,Tesla Inc,TSLA,11.03%
+ARKK,Invitae Corp,NVTA,8.78%
+ARKK,Square Inc A,SQ,6.40%
+ARKK,Roku Inc Class A,ROKU,5.28%
+ARKK,CRISPR Therapeutics AG,CRSP,4.86%
+ARKK,Proto Labs Inc,PRLB,3.46%
+ARKK,Zillow Group Inc C,Z,3.38%
+ARKK,2U Inc,TWOU,3.11%
+ARKK,LendingTree Inc,TREE,2.87%
+ARKK,Teladoc Health Inc,TDOC,2.86%
+BOSS,Tesla Inc,TSLA,1.97%
+BOSS,Twilio Inc A,TWLO,1.86%
+BOSS,Square Inc A,SQ,1.83%
+BOSS,Snap Inc Class A,SNAP,1.82%
+BOSS,QTS Realty Trust Inc Class A,QTS,1.73%
+BOSS,The Trade Desk Inc A,TTD,1.61%
+BOSS,FedEx Corp,FDX,1.56%
+BOSS,Wayfair Inc Class A,W,1.49%
+BOSS,Zscaler Inc,ZS,1.49%
+BOSS,HubSpot Inc,HUBS,1.48%
+CDL,Verizon Communications Inc,VZ,1.91%
+CDL,General Mills Inc,GIS,1.52%
+CDL,American Electric Power Co Inc,AEP,1.46%
+CDL,JM Smucker Co,SJM,1.44%
+CDL,Coca-Cola Co,KO,1.42%
+CDL,Kellogg Co,K,1.41%
+CDL,Pfizer Inc,PFE,1.40%
+CDL,Merck & Co Inc,MRK,1.39%
+CDL,Duke Energy Corp,DUK,1.38%
+CDL,Public Service Enterprise Group Inc,PEG,1.37%
+CLRG,Tesla Inc,TSLA,2.89%
+CLRG,Snap Inc Class A,SNAP,2.59%
+CLRG,PayPal Holdings Inc,PYPL,1.52%
+CLRG,Cintas Corp,CTAS,1.42%
+CLRG,ServiceNow Inc,NOW,1.36%
+CLRG,Twitter Inc,TWTR,1.32%
+CLRG,Synopsys Inc,SNPS,1.30%
+CLRG,Thermo Fisher Scientific Inc,TMO,1.30%
+CLRG,Cadence Design Systems Inc,CDNS,1.29%
+CLRG,Target Corp,TGT,1.28%
+COWZ,Cognizant Technology Solutions Corp A,CTSH,2.23%
+COWZ,Best Buy Co Inc,BBY,2.19%
+COWZ,Target Corp,TGT,2.14%
+COWZ,Lowe's Companies Inc,LOW,2.06%
+COWZ,New Residential Investment Corp,NRZ,2.05%
+COWZ,McKesson Corp,MCK,2.00%
+COWZ,Bristol-Myers Squibb Company,BMY,1.99%
+COWZ,Lennar Corp,LEN,1.99%
+COWZ,Alexion Pharmaceuticals Inc,ALXN,1.96%
+COWZ,Dow Inc,DOW,1.93%
+CWS,Trex Co Inc,TREX,5.94%
+CWS,Danaher Corp,DHR,5.87%
+CWS,Church & Dwight Co Inc,CHD,4.91%
+CWS,Sherwin-Williams Co,SHW,4.62%
+CWS,Ansys Inc,ANSS,4.60%
+CWS,Stepan Co,SCL,4.53%
+CWS,FactSet Research Systems Inc,FDS,4.45%
+CWS,Broadridge Financial Solutions Inc,BR,4.38%
+CWS,RPM International Inc,RPM,4.36%
+CWS,Silgan Holdings Inc,SLGN,4.32%
+DBLV,Wells Fargo Government MMkt Inst,GVIXX,5.66%
+DBLV,Bank of America Corp,BAC,3.14%
+DBLV,Comcast Corp Class A,CMCSA,3.12%
+DBLV,JPMorgan Chase & Co,JPM,3.04%
+DBLV,DuPont de Nemours Inc,DD,2.83%
+DBLV,Verizon Communications Inc,VZ,2.79%
+DBLV,Honeywell International Inc,HON,2.57%
+DBLV,Mondelez International Inc Class A,MDLZ,2.55%
+DBLV,Philip Morris International Inc,PM,2.51%
+DBLV,Sanofi SA ADR,SNY.PA,2.46%
+DDIV,Starwood Property Trust Inc,STWD,5.02%
+DDIV,Regions Financial Corp,RF,4.25%
+DDIV,STORE Capital Corp,STOR,3.98%
+DDIV,LyondellBasell Industries NV,LYB,3.88%
+DDIV,Ares Management Corp Class A,ARES,3.29%
+DDIV,Ventas Inc,VTR,3.12%
+DDIV,Leggett & Platt Inc,LEG,3.05%
+DDIV,Broadcom Inc,AVGO,2.95%
+DDIV,ViacomCBS Inc Class B,VIAC,2.87%
+DDIV,Blackstone Group Inc,BX,2.79%
+DEUS,McKesson Corp,MCK,0.76%
+DEUS,Target Corp,TGT,0.74%
+DEUS,Progressive Corp,PGR,0.72%
+DEUS,Cardinal Health Inc,CAH,0.70%
+DEUS,Humana Inc,HUM,0.69%
+DEUS,Bio-Rad Laboratories Inc,BIO,0.65%
+DEUS,Cummins Inc,CMI,0.65%
+DEUS,NortonLifeLock Inc,NLOK,0.62%
+DEUS,AmerisourceBergen Corp,ABC,0.61%
+DEUS,Best Buy Co Inc,BBY,0.58%
+DGRO,Microsoft Corp,MSFT,2.98%
+DGRO,JPMorgan Chase & Co,JPM,2.95%
+DGRO,Verizon Communications Inc,VZ,2.87%
+DGRO,Apple Inc,AAPL,2.85%
+DGRO,Johnson & Johnson,JNJ,2.78%
+DGRO,Chevron Corp,CVX,2.62%
+DGRO,Pfizer Inc,PFE,2.59%
+DGRO,Procter & Gamble Co,PG,2.43%
+DGRO,The Home Depot Inc,HD,1.94%
+DGRO,Coca-Cola Co,KO,1.90%
+DIA,UnitedHealth Group Inc,UNH,7.57%
+DIA,The Home Depot Inc,HD,6.62%
+DIA,Salesforce.com Inc,CRM,5.76%
+DIA,Amgen Inc,AMGN,5.38%
+DIA,McDonald's Corp,MCD,5.28%
+DIA,Microsoft Corp,MSFT,5.02%
+DIA,Goldman Sachs Group Inc,GS,4.69%
+DIA,Visa Inc Class A,V,4.51%
+DIA,Honeywell International Inc,HON,4.09%
+DIA,3M Co,MMM,3.97%
+DIV,B&G Foods Inc,BGS,6.41%
+DIV,The Kraft Heinz Co,KHC,3.62%
+DIV,General Mills Inc,GIS,3.49%
+DIV,Brookfield Property REIT Inc,BPYU,3.19%
+DIV,Verizon Communications Inc,VZ,3.17%
+DIV,Delek Logistics Partners LP,DKL,2.95%
+DIV,Duke Energy Corp,DUK,2.89%
+DIV,Dominion Energy Inc,D,2.87%
+DIV,Altria Group Inc,MO,2.65%
+DIV,Philip Morris International Inc,PM,2.65%
+DJD,Dow Inc,DOW,7.83%
+DJD,Chevron Corp,CVX,7.61%
+DJD,International Business Machines Corp,IBM,6.72%
+DJD,Walgreens Boots Alliance Inc,WBA,6.68%
+DJD,Verizon Communications Inc,VZ,5.47%
+DJD,JPMorgan Chase & Co,JPM,4.82%
+DJD,3M Co,MMM,4.80%
+DJD,The Travelers Companies Inc,TRV,4.32%
+DJD,Coca-Cola Co,KO,4.31%
+DJD,Cisco Systems Inc,CSCO,4.25%
+DLN,Apple Inc,AAPL,5.32%
+DLN,Microsoft Corp,MSFT,5.01%
+DLN,AT&T Inc,T,2.58%
+DLN,Johnson & Johnson,JNJ,2.37%
+DLN,Verizon Communications Inc,VZ,2.33%
+DLN,Procter & Gamble Co,PG,1.99%
+DLN,JPMorgan Chase & Co,JPM,1.98%
+DLN,Pfizer Inc,PFE,1.81%
+DLN,The Home Depot Inc,HD,1.81%
+DLN,Walmart Inc,WMT,1.70%
+DON,CenterPoint Energy Inc,CNP,1.24%
+DON,JM Smucker Co,SJM,1.17%
+DON,WestRock Co A,WRK,1.15%
+DON,Campbell Soup Co,CPB,1.08%
+DON,Whirlpool Corp,WHR,1.00%
+DON,Franklin Resources Inc,BEN,0.99%
+DON,The AES Corp,AES,0.98%
+DON,Targa Resources Corp,TRGP,0.97%
+DON,Eastman Chemical Co,EMN,0.96%
+DON,Alliant Energy Corp,LNT,0.95%
+DTD,Apple Inc,AAPL,4.64%
+DTD,Microsoft Corp,MSFT,4.38%
+DTD,AT&T Inc,T,2.28%
+DTD,Johnson & Johnson,JNJ,2.10%
+DTD,Verizon Communications Inc,VZ,2.10%
+DTD,JPMorgan Chase & Co,JPM,1.79%
+DTD,Procter & Gamble Co,PG,1.76%
+DTD,The Home Depot Inc,HD,1.57%
+DTD,Pfizer Inc,PFE,1.56%
+DTD,Exxon Mobil Corp,XOM,1.53%
+DVLU,General Motors Co,GM,3.57%
+DVLU,LKQ Corp,LKQ,3.21%
+DVLU,ViacomCBS Inc Class B,VIAC,3.18%
+DVLU,HCA Healthcare Inc,HCA,3.07%
+DVLU,Quanta Services Inc,PWR,3.06%
+DVLU,Regions Financial Corp,RF,2.98%
+DVLU,AutoNation Inc,AN,2.95%
+DVLU,Nexstar Media Group Inc Class A,NXST,2.95%
+DVLU,Ally Financial Inc,ALLY,2.91%
+DVLU,L Brands Inc,LB,2.88%
+EDOW,The Travelers Companies Inc,TRV,3.76%
+EDOW,Nike Inc B,NKE,3.62%
+EDOW,Apple Inc,AAPL,3.58%
+EDOW,Walmart Inc,WMT,3.56%
+EDOW,UnitedHealth Group Inc,UNH,3.51%
+EDOW,Caterpillar Inc,CAT,3.50%
+EDOW,Microsoft Corp,MSFT,3.49%
+EDOW,Procter & Gamble Co,PG,3.47%
+EDOW,Honeywell International Inc,HON,3.44%
+EDOW,McDonald's Corp,MCD,3.43%
+EQRR,Charles Schwab Corp,SCHW,3.46%
+EQRR,Truist Financial Corp,TFC,3.42%
+EQRR,Citizens Financial Group Inc,CFG,3.28%
+EQRR,Ameriprise Financial Inc,AMP,3.22%
+EQRR,PNC Financial Services Group Inc,PNC,3.14%
+EQRR,JPMorgan Chase & Co,JPM,3.08%
+EQRR,Morgan Stanley,MS,3.01%
+EQRR,Bank of America Corp,BAC,2.96%
+EQRR,State Street Corporation,STT,2.96%
+EQRR,Citigroup Inc,C,2.90%
+ERM,Ford Motor Co,F,0.80%
+ERM,General Electric Co,GE,0.80%
+ERM,General Motors Co,GM,0.80%
+ERM,Invesco Ltd,IVZ,0.78%
+ERM,Zebra Technologies Corp,ZBRA,0.78%
+ERM,Gap Inc,GPS,0.77%
+ERM,American International Group Inc,AIG,0.76%
+ERM,Exelon Corp,EXC,0.76%
+ERM,Pinnacle West Capital Corp,PNW,0.76%
+ERM,Tyler Technologies Inc,TYL,0.75%
+FAB,General Motors Co,GM,0.52%
+FAB,Exelon Corp,EXC,0.49%
+FAB,CBRE Group Inc Class A,CBRE,0.48%
+FAB,Evergy Inc,EVRG,0.48%
+FAB,M&T Bank Corp,MTB,0.48%
+FAB,Archer-Daniels Midland Co,ADM,0.47%
+FAB,Citizens Financial Group Inc,CFG,0.47%
+FAB,Micron Technology Inc,MU,0.47%
+FAB,Sempra Energy,SRE,0.47%
+FAB,The Hartford Financial Services Group Inc,HIG,0.46%
+FLQM,Align Technology Inc,ALGN,1.59%
+FLQM,Trane Technologies PLC,TT,1.34%
+FLQM,Best Buy Co Inc,BBY,1.30%
+FLQM,IDEXX Laboratories Inc,IDXX,1.26%
+FLQM,Cummins Inc,CMI,1.18%
+FLQM,Xilinx Inc,XLNX,1.18%
+FLQM,Cintas Corp,CTAS,1.16%
+FLQM,Mettler-Toledo International Inc,MTD,1.14%
+FLQM,Pool Corp,POOL,1.10%
+FLQM,Cadence Design Systems Inc,CDNS,1.09%
